@@ -1,0 +1,49 @@
+# macOS and editor files
+.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local credentials
+kaggle.json
+*.pem
+*.key
+.env
+.env.*
+
+# Downloaded datasets and archives
+GCHTID/
+HMU-GC-HE-30K/
+all_image/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints and generated experiment outputs
+*.pt
+*.pth
+*.ckpt
+*_results.json
+*_cm.png
+model_comparison.png
+per_class_f1_comparison.png
+
+# Local scratch/reference material not needed in the public repository
+hkskhkhd.ipynb
+CtransePath_try*.ipynb
+Bio Fusion guideline.pdf
+DELEGATE BOOKLET*.pdf
+Reserch paper*.pdf
+Prompt.md
+
